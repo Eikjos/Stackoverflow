@@ -1,0 +1,83 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    background-image: url("../Images/background-accueil.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+header{
+    position: relative;
+    top : 0px; 
+    background-color: hsl(0, 0%, 90%);
+    border-bottom: 3px solid hsl(243, 11%, 35%);
+    display : flex;
+    height: 90px;
+}
+h1{
+    margin : 10px;
+    padding: 7px;
+    color : white;
+    text-shadow: 4px 2px 0px hsl(243, 11%, 35%);
+}
+ul{
+    position : absolute;
+    right: 10px;;
+    display: flex; 
+    flex-direction: row;
+}
+
+li{
+    border-radius : 10px;
+    margin : 10px;
+    padding : 5px 10px;;
+    background-color: white; 
+    list-style-type: none;
+    border: solid 2px hsl(243, 11%, 35%);
+}
+
+#btn-connect {
+    background-color : hsl(243, 11%, 35%);  
+    border : solid 2px white;
+}
+#btn-connect > a {
+    color : white;
+}
+
+form {
+    margin : auto;
+    padding : 5px;
+    height : 150px;
+    width : 90%;
+}
+input{
+    width : 100%;
+    border : 2px solid rgb(217, 217, 217);
+    border-radius : 10px;
+    background-color: transparent;
+}
+.research-contains{
+    position: relative; 
+    top : 250px;
+    border : solid 2px hsl(0, 0%, 90%);
+    border-radius : 20px;
+    margin : auto;
+    background-color : hsl(0, 0%, 95%);
+    width : 40%;
+    height: 250px;
+    text-align : center;
+}
+.no-visibility{
+    display : none;
+}
+h2{
+    text-decoration : none;
+    font-size: 36px;
+    color : hsl(0, 0%, 80%);
+    text-shadow : 2px 2px 0px white;
+}
